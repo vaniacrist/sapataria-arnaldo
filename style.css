@@ -1,4 +1,6 @@
-body
+body {
+    background-color: brown;
+}
 .titulo-pagina {
     font-size: 24pt;
     margin: 40px 10px 10px 10px;
@@ -6,8 +8,11 @@ body
 
 .subtitulo-pagina {
     font-size: 20pt;
-    margin: 40px 10px 20px 10px;
+    margin: 40px 10px 20px 10px;    
 }
+
+
+
 
     
 
