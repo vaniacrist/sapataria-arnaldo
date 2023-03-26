@@ -29,10 +29,11 @@ body {
 
 .banner-header {
     width: 100px;/*largura*/
-    height: 30px;
+    height: 30px;/*altura*/
     object-fit: cover; /*ajuste do objeto bolsa*/
     object-position:0 100%;
-}   
+}
+.banner-header   
 
 
 
