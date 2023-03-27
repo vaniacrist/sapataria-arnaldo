@@ -24,7 +24,7 @@ body {
 
 } 
 .paragrafo{
-    margin:20px 0 20px 0;
+    margin:20px 0px 20px 0px;
 }
 
 .banner-header {
@@ -33,7 +33,9 @@ body {
     object-fit: cover; /*ajuste do objeto bolsa*/
     object-position:0 100%;
 }
-.banner-header   
+.imagem-sapataria {
+    margin: 60px 20px 20px 20px;/altura*/ 
+}   
 
 
 
