@@ -33,9 +33,16 @@ body {
     object-fit: cover; /*ajuste do objeto bolsa*/
     object-position:0 100%;
 }
-.imagem-sapataria {
-    margin: 60px 20px 20px 20px;/altura*/ 
-}   
+.menu-navegação ul {
+    display: flex;
+    justify-content: start;
+}
+.menu-navegação ul11{
+    padding: 20px;
+}
+
+ 
+
 
 
 
