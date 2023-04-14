@@ -28,18 +28,13 @@ body {
 }
 
 .banner-header {
-    width: 100px;/*largura*/
-    height: 30px;/*altura*/
+    width: 100%;/*largura*/
+    height: 800px;/*altura*/
     object-fit: cover; /*ajuste do objeto bolsa*/
     object-position:0 100%;
 }
-.menu-navegação ul {
-    display: flex;
-    justify-content: start;
-}
-.menu-navegação ul11{
-    padding: 20px;
-}
+
+
 
  
 
