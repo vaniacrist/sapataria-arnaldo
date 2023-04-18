@@ -1,5 +1,9 @@
-body {
-    background-color: brown;
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body  {
+     font-family: Roboto;
+    background-color: #A9907E;
 }
 .titulo-pagina {
     font-size: 24pt;
@@ -29,9 +33,18 @@ body {
 
 .banner-header {
     width: 100%;/*largura*/
-    height: 800px;/*altura*/
+    height: 400px;/*altura*/
     object-fit: cover; /*ajuste do objeto bolsa*/
     object-position:0 100%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.h3 {
+
 }
 
 
