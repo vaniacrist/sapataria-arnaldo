@@ -1,74 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/reset.css">
-    
+
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="menu">
+
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="sobre-nos.html">sobre nos</a></li>
+                <li><a href="contato.html">contato</a></li>
+                <li><a href="catalogo.html">catalogo</a></li>
+
+            </ul>
         </nav>
-        <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="sobre-nos.html">sobre-nos></a></li>
-            <li><a href="contato.html">contato></a></li>
-            <li><a href="catalogo.html">catalogo></a></li>
-            
-        </ul>
-    </nav>
-</header>
+    </header>
 
-<div class="container">
+    <div class="container">
 
-    <main>
+        <main>
+
+            <form action="/action_page.php">
+                <label for="name" nome:></label>
+                <input type="text" id="name" autofocus required>
+
+                <label for="email" id="email" required></label>
+                <input type="text" id="email" required>
+
+                <label for="subject" Assunto:></label>
+                <input for="text" id="subject" required>
+                <label for="message" mensagem:></label><br>
+                <input type="text">
+                <textarea id="message" cols="30" rows="5"></textarea><br>
+
+                <label for="phone" telefone></label>
+                <input type="tel" id="phone">
+
+                <input type="submit" value="Enviar">
+            </form>
+
+
+        </main>
         
-        <form action="/action_page.php">
-        <label for="name"nome:></label>
-        <input type= "text" id="name" autofocus required>
-    
-        <label for="email" id="email" required></label>
-        <input type="text"id= "email" required>
-    
-        <label for= "subject" Assunto:></label>
-        <input for= "text" id="subject" required>
-        <label for= "message"mensagem:></label><br>
-        <input type="text">
-        <textarea id="message"cols="30" rows="5"></textarea><br>
-    
-        <label for="phone"telefone></label>
-        <input type="tel" id="phone">
-    
-        <input type="submit">
-    
+
         
-    </main>
-    <aside>
+        <aside>
+            <img class="banner-header" src="./img/sapatariabusso_3.webp" alt="foto do local">
+            <h1>Horário de funcionamento</h1>
+            <p>seg. a sexta.</p>
+            <p>das 08h ás 17h</p>
+            <p>sábados</p>
+            <p>das 09h á 12h</p>
+        </aside>
+    </div>
 
-    </aside>
-</div>
-<aside>
-    <img src="./img/sapataria russo.jpg"alt="foto do local">
-    <h1>Horário de funcionamento</h1> 
-    <p>seg. a sexta.</p>
-    <p>das 08h ás 17h</p>
-    <p>sábados</p>
-    <p>das 09h á 12h</p>
-</aside>
 
-    
 
-<h1>class="TITULO-PÁGINA"</h1>
+    <footer>
+
         <address>
             <p> R. Forte do Leme, 52</p>
             <p>Jd.Santa Adélia</p>
             <p>São Paulo,SP</p>
             <p>telefone (11) 3371-5846</p>
-            
+    
         </address>
+    </footer>
 </body>
+
 </html>

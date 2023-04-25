@@ -1,0 +1,33 @@
+body  {
+    font-family: Roboto;
+   background-color: #A9907E;
+}
+.menu {
+ display: flex;  
+ background-color: aqua;
+ justify-content: center;
+
+}
+.menu ul {
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+
+}
+.menu ul li a{
+   text-decoration: none;
+   font-size: 40px;
+   color: black;
+   text-transform: uppercase;
+}
+.titulo-pagina {
+   font-size: 24pt;
+   margin: 40px 10px 10px 10px;
+}
+
+
+.subtitulo-pagina {
+   font-size: 20pt;
+   margin: 40px 10px 20px 10px;    
+}
+   
