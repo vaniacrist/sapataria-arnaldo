@@ -8,13 +8,13 @@ body  {
  justify-content: center;
 
 }
-.menu ul {
+.menu > ul {
    display: flex;
    width: 100%;
    justify-content: space-around;
 
 }
-.menu ul li a{
+.menu > ul > li > a{
    text-decoration: none;
    font-size: 40px;
    color: black;
