@@ -2,24 +2,33 @@ body  {
     font-family: Roboto;
    background-color: #A9907E;
 }
-.menu {
+.menu a:hover {
  display: flex;  
  background-color: aqua;
  justify-content: center;
 
 }
-.menu > ul {
+.menu ul:hover {
    display: flex;
    width: 100%;
    justify-content: space-around;
 
 }
-.menu > ul > li > a{
+.menu  ul  li  a {
    text-decoration: none;
    font-size: 40px;
    color: black;
    text-transform: uppercase;
 }
+.menu a:hover{
+   background-color: blue
+
+}
+
+
+ 
+
+
 .titulo-pagina {
    font-size: 24pt;
    margin: 40px 10px 10px 10px;

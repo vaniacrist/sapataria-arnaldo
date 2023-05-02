@@ -14,12 +14,13 @@ body  {
    justify-content: space-around;
 
 }
-.menu ul li a{
+.menu >ul >li >a{
    text-decoration: none;
    font-size: 40px;
    color: black;
    text-transform: uppercase;
 }
+mover
 
 .titulo-pagina {
    font-size: 24pt;
