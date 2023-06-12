@@ -1,0 +1,43 @@
+nav {
+  background-color:#543737;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-style: 'Chivo Mono', monospace;
+  font-weight: 200;
+}
+.btn-menu {
+  display: flex;
+  align-items:center;
+  font-family: 'Chivo Mono', monospace;
+  transition: background-color 0.25s;
+  font-size: 30px;
+  
+}
+
+.btn-menu>a {
+  margin:3px;
+  color: rgb(255, 255, 255);
+  margin-left: 5px;
+  
+}
+
+.btn-menu>i {
+  margin:3px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.btn-menu:hover {
+  background-color: #bf8a82;
+  cursor: pointer;
+  
+}
+img class{
+  banner-heigth:70%;
+  
+}
+.paragrafo {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: bold;
+
